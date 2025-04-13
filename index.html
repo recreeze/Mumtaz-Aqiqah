@@ -232,18 +232,17 @@
     feather.replace();
   </script>
 
-  <!-- ScrollSpy -->
-  <script src="./img/scrollspy.min.js.download"></script>
-  <script>
-    window.onload = () => {
-      scrollSpy('#navbarlink', {
-        sectionSelector: 'section',
-        targetSelector: 'a',
-        offset: 100,
-        activeClass: 'clicked'
-      });
-    };
-  </script>
+  <script src="https://unpkg.com/@sidsbrmnn/scrollspy@1.x/dist/scrollspy.min.js"></script>
+    <script>
+      window.onload = () => {
+        scrollSpy('#navbarlink', {
+          sectionSelector: 'section',
+          targetSelector: 'a',
+          offset: 100,
+          activeClass: 'clicked'
+        })
+      }
+    </script>
 
   <!-- Script utama dipanggil terakhir -->
   <script src="script.js"></script>
